@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TravelAPI.MainPage"
+             BackgroundColor="Beige">
+
+    <StackLayout BackgroundColor="AntiqueWhite" Margin="10">
+        <StackLayout>
+            <Label Text="Welcome to application!" HorizontalTextAlignment="Center" TextColor="Black" FontSize="24"/>
+            <Button Text="Смотреть избранные места " Clicked="Button_Clicked_1"></Button>
+            <StackLayout x:Name="CityList" Orientation="Vertical">
+                <Label Text="Выберите город: " HorizontalTextAlignment="Center" TextColor="Black" FontSize="22"/>
+                <Picker x:Name="CityFilter" WidthRequest="140" Title="Выбрать город" FontSize="18">
+                    <Picker.Items>
+                        <x:String>Ханты-Мансийск</x:String>
+                        <x:String>Москва</x:String>
+                    </Picker.Items>
+                </Picker>
+            </StackLayout>
+
+            <StackLayout x:Name="DateList" Orientation="Vertical">
+                <Label Text="Выберите категорию:" HorizontalTextAlignment="Center" TextColor="Black" FontSize="22"/>
+                <Picker x:Name="CategoryFilter" WidthRequest="140" Title="Выбрать категорию" FontSize="18">
+                    <Picker.Items>
+                        <x:String>Супермаркеты</x:String>
+                        <x:String>Одежда</x:String>
+                        <x:String>Рестораны/кафе</x:String>
+                        <x:String>Развлечения</x:String>
+                    </Picker.Items>
+                </Picker>
+            </StackLayout>
+            <Button Clicked="Button_Clicked" Text="Поиск"></Button>
+        </StackLayout>
+
+        <StackLayout Margin="5,0,5,15" BackgroundColor="LightGray">
+            <ListView HasUnevenRows="True" WidthRequest="350" HorizontalOptions="Center" VerticalOptions="Center" x:Name="placesList" ItemsSource="{Binding}" ItemSelected="SelectedItem">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="LightGray" WidthRequest="650">
+                                    <StackLayout BackgroundColor="White" Margin="0,10,0,5" Padding="5" >
+                                        <Label Text="Название: " TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="20"></Label>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="{Binding properties.name}" TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="20"></Label>
+                                            <Label Text=", " TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="20"></Label>
+                                            <Label Text="{Binding properties.address_line2}" TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="20"></Label>
+                                        </StackLayout>
+                                        <StackLayout>
+                                            <Label Text="Режим работы: " TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="20"></Label>
+                                            <Label Text="{Binding properties.opening_hours}" TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="20"></Label>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

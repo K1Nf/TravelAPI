@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TravelAPI.PlacePage"
+             BackgroundColor="Beige">
+    
+    <ContentPage.Content>
+        <Frame Margin="10" Padding="5" BorderColor="Black" >
+            <StackLayout BackgroundColor="AntiqueWhite" Margin="0,10,0,5" Padding="5" >
+                <Label Text="Название: " TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="20"></Label>
+                <StackLayout Orientation="Horizontal">
+                    <Label x:Name="Propname" Text="{Binding properties.name}" TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="20"></Label>
+                    <Label Text=", " TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="20"></Label>
+                    <Label x:Name="PropAddress" Text="{Binding properties.address_line2}" TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="20"></Label>
+                </StackLayout>
+                <StackLayout>
+                    <Label Text="Режим работы: " TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="20"></Label>
+                    <Label x:Name="PropHours" Text="{Binding properties.opening_hours}" TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="20"></Label>
+                </StackLayout>
+                <StackLayout>
+                    <Label Text="Контакты: " TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="20"></Label>
+                    <StackLayout>
+                        <Label Text="Сайт: " TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="20"></Label>
+                        <Label x:Name="PropWebSite" Text="{Binding properties.website}" TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="20"></Label>
+                    </StackLayout>
+                    <StackLayout>
+                        <Label Text="Телефон: " TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="20"></Label>
+                        <Label x:Name="PropPhone" Text="{Binding properties.phone}" TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="20"></Label>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout>
+                    <Label Text="Координаты: " TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="20"></Label>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Широта: " TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="20"></Label>
+                        <Label x:Name="PropLat" Text="{Binding properties.lat}" TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="20"></Label>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Долгота: " TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="20"></Label>
+                        <Label x:Name="PropLon" Text="{Binding properties.lon}" TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="20"></Label>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Button x:Name="AddPlace" ClassId="AddPlace" Text="Добавить в избранное " Clicked="Button_Clicked" FontSize="16" WidthRequest="160"></Button>
+                    <Button x:Name="RemovePlace" ClassId="RemovePlace" Text="Удалить из избранного" Clicked="Button_Clicked" FontSize="16" WidthRequest="160"></Button>
+                </StackLayout>
+                
+                <Label x:Name="labelClick" Text=""></Label>
+            </StackLayout>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>

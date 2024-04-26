@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\TravelAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{489751AF-9EF4-4DEA-A6B4-22750A19F994}|TravelAPI\\TravelAPI\\TravelAPI.csproj|c:\\users\\user\\source\\repos\\travelapi\\travelapi\\travelapi\\izbrannyeplaces.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{489751AF-9EF4-4DEA-A6B4-22750A19F994}|TravelAPI\\TravelAPI\\TravelAPI.csproj|solutionrelative:travelapi\\travelapi\\izbrannyeplaces.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489751AF-9EF4-4DEA-A6B4-22750A19F994}|TravelAPI\\TravelAPI\\TravelAPI.csproj|c:\\users\\user\\source\\repos\\travelapi\\travelapi\\travelapi\\izbrannyeplaces.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{489751AF-9EF4-4DEA-A6B4-22750A19F994}|TravelAPI\\TravelAPI\\TravelAPI.csproj|solutionrelative:travelapi\\travelapi\\izbrannyeplaces.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489751AF-9EF4-4DEA-A6B4-22750A19F994}|TravelAPI\\TravelAPI\\TravelAPI.csproj|c:\\users\\user\\source\\repos\\travelapi\\travelapi\\travelapi\\placepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{489751AF-9EF4-4DEA-A6B4-22750A19F994}|TravelAPI\\TravelAPI\\TravelAPI.csproj|solutionrelative:travelapi\\travelapi\\placepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489751AF-9EF4-4DEA-A6B4-22750A19F994}|TravelAPI\\TravelAPI\\TravelAPI.csproj|c:\\users\\user\\source\\repos\\travelapi\\travelapi\\travelapi\\placepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{489751AF-9EF4-4DEA-A6B4-22750A19F994}|TravelAPI\\TravelAPI\\TravelAPI.csproj|solutionrelative:travelapi\\travelapi\\placepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 482,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IzbrannyePlaces.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TravelAPI\\TravelAPI\\TravelAPI\\IzbrannyePlaces.xaml",
+              "RelativeDocumentMoniker": "TravelAPI\\TravelAPI\\IzbrannyePlaces.xaml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TravelAPI\\TravelAPI\\TravelAPI\\IzbrannyePlaces.xaml",
+              "RelativeToolTip": "TravelAPI\\TravelAPI\\IzbrannyePlaces.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-22T13:04:58.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlacePage.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TravelAPI\\TravelAPI\\TravelAPI\\PlacePage.xaml",
+              "RelativeDocumentMoniker": "TravelAPI\\TravelAPI\\PlacePage.xaml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TravelAPI\\TravelAPI\\TravelAPI\\PlacePage.xaml",
+              "RelativeToolTip": "TravelAPI\\TravelAPI\\PlacePage.xaml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-18T08:01:23.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IzbrannyePlaces.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TravelAPI\\TravelAPI\\TravelAPI\\IzbrannyePlaces.xaml.cs",
+              "RelativeDocumentMoniker": "TravelAPI\\TravelAPI\\IzbrannyePlaces.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TravelAPI\\TravelAPI\\TravelAPI\\IzbrannyePlaces.xaml.cs",
+              "RelativeToolTip": "TravelAPI\\TravelAPI\\IzbrannyePlaces.xaml.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAwBkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T07:40:23.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlacePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TravelAPI\\TravelAPI\\TravelAPI\\PlacePage.xaml.cs",
+              "RelativeDocumentMoniker": "TravelAPI\\TravelAPI\\PlacePage.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TravelAPI\\TravelAPI\\TravelAPI\\PlacePage.xaml.cs",
+              "RelativeToolTip": "TravelAPI\\TravelAPI\\PlacePage.xaml.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAswFoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T07:29:33.217Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 171,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 74,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 672,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1883,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

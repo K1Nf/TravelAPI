@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TravelAPI.IzbrannyePlaces">
+    
+    <StackLayout Margin="5,0,5,15" BackgroundColor="LightGray">
+        <StackLayout>
+            <Label Text="Избранные места " FontSize="28" HorizontalTextAlignment="Center" TextColor="Black"></Label>
+        </StackLayout>
+        <ListView HasUnevenRows="True" WidthRequest="350" HorizontalOptions="Center" VerticalOptions="Center" x:Name="placesList" ItemsSource="{Binding}" ItemSelected="SelectedItem">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <StackLayout VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="LightGray" WidthRequest="650">
+                                <StackLayout BackgroundColor="White" Margin="0,10,0,5" Padding="5" >
+                                    <Label Text="Название: " TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="20"></Label>
+                                    <StackLayout Orientation="Horizontal">
+                                        <Label Text="{Binding properties.name}" TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="20"></Label>
+                                        <Label Text=", " TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="20"></Label>
+                                        <Label Text="{Binding properties.address_line2}" TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="20"></Label>
+                                    </StackLayout>
+                                    <StackLayout>
+                                        <Label Text="Режим работы: " TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="20"></Label>
+                                        <Label Text="{Binding properties.opening_hours}" TextColor="Black" Margin="0" HorizontalTextAlignment="Start" FontSize="20"></Label>
+                                    </StackLayout>
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
